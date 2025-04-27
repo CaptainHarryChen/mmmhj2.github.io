@@ -111,7 +111,7 @@ $$
 $$
 C_p = \frac {\partial \mathbf{v}} {\partial w} \frac {\partial w} {\partial \mathbf{x}}
 $$
-在G2P时，我们有$\mathbf{v}_p \approx \sum_i w_{ip} \mathbf{v}_i$，所以可以认为$\frac {\partial \mathbf{v}} {\partial w} = w_{ip}$，于是：
+在G2P时，我们有$\mathbf{v}_p \approx \sum_i w_{ip} \mathbf{v}_i$，所以可以认为$\frac {\partial \mathbf{v}} {\partial w} = \mathbf{v}_i$，于是：
 $$
 C_p = \sum_i \mathbf{v}_i \cdot \frac {\partial w} {\partial \mathbf{x}} = \sum_i \mathbf{v}_i (\nabla w_{ip})^T
 $$
