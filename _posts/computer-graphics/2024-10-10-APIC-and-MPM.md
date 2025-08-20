@@ -331,7 +331,7 @@ $$
 $$
 可以推导出格点受力为：
 $$
-\mathbf{f}_i(\mathbf{x}) = - \sum_p V_p^0 \cdot \lambda (J_{ip}^n(\mathbf{x})-1) \cdot \nabla w_{ip}^n
+\mathbf{f}_i(\mathbf{x}) = - \sum_p V_p^0 \cdot \lambda (J_{ip}^n(\mathbf{x})-1)J^n_p \cdot \nabla w_{ip}^n
 $$
 
 ### 时间积分
